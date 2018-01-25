@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<!-- @BeforeSuite -->
+<suite name="TestAll">
+
+	<!-- @Parameters -->
+	
+	<!-- All available values for browser parameter: firefox, chrome -->
+	<parameter name="browser" value="chrome"/>
+	<!-- base url:  -->
+	<parameter name="baseURL" value="http://127.0.0.1:5000/"/>
+
+	
+	<!-- @BeforeTest -->
+	<test name="Regression Suite">
+	  <classes>
+		<class name="test.testcases.PaintCalculatorTest"/>													
+	  </classes>
+	</test>
+	<!-- @AfterTest -->
+ 
+</suite>
+<!-- @AfterSuite -->

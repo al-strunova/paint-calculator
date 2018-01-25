@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <parameter name="baseURL" value="http://127.0.0.1:5000/"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Regression Suite(failed)">
+    <classes>
+      <class name="test.testcases.PaintCalculatorTest">
+        <methods>
+          <include name="verifyPaintCalculator" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.testcases.PaintCalculatorTest -->
+    </classes>
+  </test> <!-- Regression Suite(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
